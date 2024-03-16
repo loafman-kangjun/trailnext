@@ -24,9 +24,8 @@ jobs:
           rm -rf cmake-build-release
           cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release"
           cmake --build "./cmake-build-release" --config Release --target appTrailNext -j 6
-          ls -a
       - name: upload
         uses: actions/upload-artifact@v4
         with:
           name: TrailNext
-          path: "./cmake-build-release/Release/appTrailNext"
+          path: "./cmake-build-release/appTrailNext"
