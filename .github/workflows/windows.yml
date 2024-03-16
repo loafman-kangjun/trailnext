@@ -17,6 +17,8 @@ jobs:
         id: build
         shell: cmd
         run: |
+          cd "C:\Program Files\Microsoft Visual Studio\"
+          ls 
           call "C:\Program Files\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
           echo winSdkDir=%WindowsSdkDir% >> %GITHUB_ENV%
           echo winSdkVer=%WindowsSdkVersion% >> %GITHUB_ENV%
