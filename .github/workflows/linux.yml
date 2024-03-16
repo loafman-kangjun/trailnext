@@ -1,23 +1,22 @@
 name: GitHub Actions Demo
-run-name: ${{ github.sha }} Windows Build 🚀
+run-name: ${{ github.sha }} Linux Build 🚀
 on: [push]
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Install Qt
         uses: jurplel/install-qt-action@v3
         with:
           version: '6.6.2'
-          host: 'windows'
-          target: 'desktop'
-          arch: 'win64_msvc2019_64'
+          cached: false
+      - name: Install library
+        run: sudo apt-get install -y libglew-dev libglfw3-dev
       - uses: actions/checkout@v4
-      - name: msvc-build
+      - name: ubuntu-build
         id: build
-        shell: cmd
         run: |
-          rmdir /s/q cmake-build-release
+          rm -rf cmake-build-release
           cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release"
           cmake --build "./cmake-build-release" --config Release --target appTrailNext -j 6
           ls
