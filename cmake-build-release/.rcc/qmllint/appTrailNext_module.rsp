@@ -1,0 +1,10 @@
+-I
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release
+-I
+C:/Qt/6.6.2/msvc2019_64/./qml
+--resource
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qmake_TrailNext.qrc
+--resource
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/appTrailNext_raw_qml_0.qrc
+--module
+TrailNext

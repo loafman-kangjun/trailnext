@@ -1,0 +1,10 @@
+-I
+C:/Qt/6.6.2/msvc2019_64/qml
+-I
+C:/Qt/6.6.2/msvc2019_64/./qml
+--resource
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/.rcc/qmake_FluentUI.qrc
+--resource
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/.rcc/fluentuiplugin_raw_qml_0.qrc
+--module
+FluentUI

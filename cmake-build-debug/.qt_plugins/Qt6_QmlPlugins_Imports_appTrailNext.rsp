@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/kangj/Documents/Program/TrailNext
+-cmake-output
+-output-file
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.qt_plugins/Qt6_QmlPlugins_Imports_appTrailNext.cmake
+-importPath
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/TrailNext
+-importPath
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug
+-importPath
+C:/Qt/6.6.2/msvc2019_64/./qml
+-qrcFiles
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.rcc/qmake_TrailNext.qrc
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.rcc/appTrailNext_raw_qml_0.qrc
