@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Linux Build
 run-name: ${{ github.sha }} Linux Build 🚀
 on:
   push:
