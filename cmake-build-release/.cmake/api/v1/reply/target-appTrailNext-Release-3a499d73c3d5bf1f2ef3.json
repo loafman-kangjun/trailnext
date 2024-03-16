@@ -633,7 +633,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				},
 				{
 					"backtrace" : 47,
@@ -661,6 +661,10 @@
 				{
 					"backtrace" : 16,
 					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 6,
@@ -711,7 +715,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/appTrailNext_autogen/include"
+					"path" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/appTrailNext_autogen/include"
 				},
 				{
 					"backtrace" : 79,
@@ -816,7 +820,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				},
 				{
 					"backtrace" : 47,
@@ -848,6 +852,10 @@
 				{
 					"backtrace" : 16,
 					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 6,
@@ -898,7 +906,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/appTrailNext_autogen/include"
+					"path" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/appTrailNext_autogen/include"
 				},
 				{
 					"backtrace" : 79,
@@ -1006,11 +1014,11 @@
 			"id" : "appTrailNext_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "appTrailNext_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "appTrailNext_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appTrailNext_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appTrailNext::@6890427a1f51a3e7e1df",
@@ -1033,31 +1041,31 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:windows",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:windows",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Quickd.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Quick.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 13,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6QmlModelsd.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6QmlModels.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 16,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Qmld.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Qml.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 31,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Networkd.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Network.lib",
 				"role" : "libraries"
 			},
 			{
@@ -1067,17 +1075,17 @@
 			},
 			{
 				"backtrace" : 40,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6OpenGLd.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6OpenGL.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 46,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Guid.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Gui.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 47,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Cored.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6Core.lib",
 				"role" : "libraries"
 			},
 			{
@@ -1092,7 +1100,7 @@
 			},
 			{
 				"backtrace" : 62,
-				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6EntryPointd.lib",
+				"fragment" : "C:\\Qt\\6.6.2\\msvc2019_64\\lib\\Qt6EntryPoint.lib",
 				"role" : "libraries"
 			},
 			{
@@ -1194,7 +1202,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/appTrailNext_autogen/mocs_compilation.cpp",
+			"path" : "cmake-build-release/appTrailNext_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1206,21 +1214,21 @@
 		{
 			"backtrace" : 82,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/meta_types/qt6apptrailnext_debug_metatypes.json.gen",
+			"path" : "cmake-build-release/meta_types/qt6apptrailnext_release_metatypes.json.gen",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 83,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/apptrailnext_qmltyperegistrations.cpp",
+			"path" : "cmake-build-release/apptrailnext_qmltyperegistrations.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 88,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qrc_qmake_TrailNext.cpp",
+			"path" : "cmake-build-release/.rcc/qrc_qmake_TrailNext.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1232,90 +1240,90 @@
 			"backtrace" : 91,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qmlcache/appTrailNext_qmlcache_loader.cpp",
+			"path" : "cmake-build-release/.rcc/qmlcache/appTrailNext_qmlcache_loader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 92,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qmlcache/appTrailNext_Main_qml.cpp",
+			"path" : "cmake-build-release/.rcc/qmlcache/appTrailNext_Main_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 96,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qrc_appTrailNext_raw_qml_0.cpp",
+			"path" : "cmake-build-release/.rcc/qrc_appTrailNext_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 98,
-			"path" : "cmake-build-debug/.rcc/qmake_TrailNext.qrc",
+			"path" : "cmake-build-release/.rcc/qmake_TrailNext.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 98,
-			"path" : "cmake-build-debug/TrailNext/qmldir",
+			"path" : "cmake-build-release/TrailNext/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 98,
-			"path" : "cmake-build-debug/.rcc/appTrailNext_raw_qml_0.qrc",
+			"path" : "cmake-build-release/.rcc/appTrailNext_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/appTrailNext_autogen/timestamp",
+			"path" : "cmake-build-release/appTrailNext_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/meta_types/qt6apptrailnext_debug_metatypes.json.gen.rule",
+			"path" : "cmake-build-release/meta_types/qt6apptrailnext_release_metatypes.json.gen.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/apptrailnext_qmltyperegistrations.cpp.rule",
+			"path" : "cmake-build-release/apptrailnext_qmltyperegistrations.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qrc_qmake_TrailNext.cpp.rule",
+			"path" : "cmake-build-release/.rcc/qrc_qmake_TrailNext.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qmlcache/appTrailNext_qmlcache_loader.cpp.rule",
+			"path" : "cmake-build-release/.rcc/qmlcache/appTrailNext_qmlcache_loader.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qmlcache/appTrailNext_Main_qml.cpp.rule",
+			"path" : "cmake-build-release/.rcc/qmlcache/appTrailNext_Main_qml.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/.rcc/qrc_appTrailNext_raw_qml_0.cpp.rule",
+			"path" : "cmake-build-release/.rcc/qrc_appTrailNext_raw_qml_0.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/appTrailNext_autogen/timestamp.rule",
+			"path" : "cmake-build-release/appTrailNext_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/meta_types/appTrailNext_json_file_list.txt.rule",
+			"path" : "cmake-build-release/meta_types/appTrailNext_json_file_list.txt.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

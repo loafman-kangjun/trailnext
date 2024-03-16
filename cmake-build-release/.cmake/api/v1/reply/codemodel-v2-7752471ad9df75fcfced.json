@@ -170,7 +170,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appTrailNext::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appTrailNext-Release-7b054d32c5ca24719677.json",
+					"jsonFile" : "target-appTrailNext-Release-3a499d73c3d5bf1f2ef3.json",
 					"name" : "appTrailNext",
 					"projectIndex" : 0
 				},
@@ -233,7 +233,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "fluentuiplugin::@718bc3f82e4726942356",
-					"jsonFile" : "target-fluentuiplugin-Release-3d98d136f268ba04c67a.json",
+					"jsonFile" : "target-fluentuiplugin-Release-a41ff223d2a11b506c8c.json",
 					"name" : "fluentuiplugin",
 					"projectIndex" : 2
 				},

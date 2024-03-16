@@ -460,7 +460,7 @@
 			{
 				"command" : 16,
 				"file" : 24,
-				"line" : 23,
+				"line" : 13,
 				"parent" : 70
 			},
 			{
@@ -2442,11 +2442,11 @@
 			"id" : "fluentuiplugin_tooling::@718bc3f82e4726942356"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "fluentuiplugin_autogen::@718bc3f82e4726942356"
+			"id" : "fluentuiplugin_autogen_timestamp_deps::@718bc3f82e4726942356"
 		},
 		{
-			"id" : "fluentuiplugin_autogen_timestamp_deps::@718bc3f82e4726942356"
+			"backtrace" : 0,
+			"id" : "fluentuiplugin_autogen::@718bc3f82e4726942356"
 		}
 	],
 	"id" : "fluentuiplugin::@718bc3f82e4726942356",
@@ -2455,7 +2455,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{
