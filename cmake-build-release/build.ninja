@@ -3468,7 +3468,7 @@ build C$:\Qt\6.6.2\msvc2019_64\qml\FluentUI\i18n\fluentuiplugin_zh_CN.qm: CUSTOM
 #############################################
 # Phony custom command for FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps
 
-build FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps | ${cmake_ninja_workdir}FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps: phony FluentUI\src\.rcc\qmlcache\fluentuiplugin_qmlcache_loader.cpp C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Core.lib C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe
+build FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps | ${cmake_ninja_workdir}FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps: phony FluentUI\src\.rcc\qmlcache\fluentuiplugin_qmlcache_loader.cpp C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Core.lib
 
 
 #############################################

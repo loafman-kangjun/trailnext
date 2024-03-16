@@ -17,5 +17,5 @@ jobs:
         id: build
         shell: cmd
         run: |
-          cmake -G Ninja -DCMAKE_PREFIX_PATH=%Qt6_DIR%
-          cmake --build C:\Users\kangj\Documents\Program\TrailNext\cmake-build-debug --target appTrailNext -j 6
+          cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release"
+          cmake --build "./cmake-build-debug" --target appTrailNext -j 6
