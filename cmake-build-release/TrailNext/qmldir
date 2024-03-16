@@ -1,0 +1,5 @@
+module TrailNext
+typeinfo appTrailNext.qmltypes
+prefer :/qt/qml/TrailNext/
+Main 1.0 Main.qml
+

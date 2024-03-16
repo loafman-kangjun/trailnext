@@ -1,6 +1,7 @@
 import QtQuick
+import FluentUI
 
-Window {
+FluWindow {
     width: 640
     height: 480
     visible: true

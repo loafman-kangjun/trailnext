@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/TrailNext">
+    <file alias="qmldir">C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/TrailNext/qmldir</file>
+  </qresource>
+</RCC>
+

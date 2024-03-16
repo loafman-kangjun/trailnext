@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/TrailNext/">
+    <file alias="Main.qml">C:/Users/kangj/Documents/Program/TrailNext/Main.qml</file>
+  </qresource>
+</RCC>
+
