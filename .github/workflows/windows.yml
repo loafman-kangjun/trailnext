@@ -17,8 +17,5 @@ jobs:
         id: build
         shell: cmd
         run: |
-          cmake
-          echo winSdkDir=%WindowsSdkDir% >> %GITHUB_ENV%
-          echo winSdkVer=%WindowsSdkVersion% >> %GITHUB_ENV%
-          echo vcToolsInstallDir=%VCToolsInstallDir% >> %GITHUB_ENV%
-          echo vcToolsRedistDir=%VCToolsRedistDir% >> %GITHUB_ENV%
+          cmake -G Ninja -DCMAKE_PREFIX_PATH=%Qt6_DIR%
+          cmake --build C:\Users\kangj\Documents\Program\TrailNext\cmake-build-debug --target appTrailNext -j 6
