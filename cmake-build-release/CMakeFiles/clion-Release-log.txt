@@ -1,31 +1,10 @@
 "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\kangj\Documents\Program\TrailNext -B C:\Users\kangj\Documents\Program\TrailNext\cmake-build-release
--- The CXX compiler identification is MSVC 19.39.33521.0
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - not found
--- Found Threads: TRUE  
--- Performing Test HAVE_STDATOMIC
--- Performing Test HAVE_STDATOMIC - Success
--- Found WrapAtomic: TRUE  
--- Found WrapVulkanHeaders: C:/VulkanSDK/1.3.275.0/Include  
--- The C compiler identification is MSVC 19.39.33521.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
------------------------- FluentUI ------------------------
-Build FluentUI demo applications.: OFF
-Build static library.: OFF
-Path to FluentUI plugin.: 
--- Configuring done (16.1s)
--- Generating done (0.7s)
--- Build files have been written to: C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release
+CMake Error at CMakeLists.txt:44 (add_subdirectory):
+  The source directory
+
+    C:/Users/kangj/Documents/Program/TrailNext/FluentUI
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
