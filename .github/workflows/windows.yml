@@ -25,4 +25,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: appTrailNext
-          path: ".\cmake-build-release\Release\appTrailNext.exe"
+          path: "./cmake-build-release/Release/appTrailNext.exe"
