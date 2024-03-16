@@ -1,0 +1,34 @@
+name: GitHub Actions Demo
+run-name: ${{ github.sha }} Macos Build 🚀
+on:
+  push:
+    paths:
+      - '*.txt'
+      - '*.cpp'
+      - '*.qml'
+      - '.github/workflows/macos.yml'
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.6.2'
+          host: 'mac'
+          target: 'desktop'
+          arch: 'clang_64'
+      - name: Install library
+        run: sudo apt-get install -y libglew-dev libglfw3-dev
+      - uses: actions/checkout@v4
+      - name: ubuntu-build
+        id: build
+        run: |
+          rm -rf cmake-build-release
+          cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release"
+          cmake --build "./cmake-build-release" --config Release --target appTrailNext -j 6
+      - name: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: TrailNext
+          path: "./cmake-build-release/appTrailNext"
