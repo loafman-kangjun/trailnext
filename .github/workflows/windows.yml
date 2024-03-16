@@ -17,5 +17,6 @@ jobs:
         id: build
         shell: cmd
         run: |
+          rmdir /s/q cmake-build-release
           cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release"
-          cmake --build "./cmake-build-debug" --target appTrailNext -j 6
+          cmake --build "./cmake-build-release" --target appTrailNext -j 6
