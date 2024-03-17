@@ -8,6 +8,10 @@ C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/all_qmll
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/all_qmllint_json.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/all_qmllint_module.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_tooling.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_lupdate.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/update_translations.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_lrelease.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/release_translations.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_qmlimportscan.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/rebuild_cache.dir

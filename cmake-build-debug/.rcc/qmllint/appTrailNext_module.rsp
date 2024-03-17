@@ -6,5 +6,7 @@ C:/Qt/6.6.2/msvc2019_64/./qml
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.rcc/qmake_TrailNext.qrc
 --resource
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.rcc/appTrailNext_raw_qml_0.qrc
+--resource
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.rcc/appTrailNext_translations.qrc
 --module
 TrailNext

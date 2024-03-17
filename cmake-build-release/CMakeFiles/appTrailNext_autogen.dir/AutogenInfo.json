@@ -1055,11 +1055,24 @@
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-debug.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseArguments.cmake",
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/kangj/Documents/Program/TrailNext",
@@ -1130,6 +1143,7 @@
 	[
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qmlcache/appTrailNext_Main_qml.cpp",
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qrc_appTrailNext_raw_qml_0.cpp",
+		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qrc_appTrailNext_translations.cpp",
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qrc_qmake_TrailNext.cpp",
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/apptrailnext_qmltyperegistrations.cpp"
 	],
@@ -1156,6 +1170,7 @@
 	[
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qmlcache/appTrailNext_Main_qml.cpp",
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qrc_appTrailNext_raw_qml_0.cpp",
+		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qrc_appTrailNext_translations.cpp",
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qrc_qmake_TrailNext.cpp",
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/apptrailnext_qmltyperegistrations.cpp"
 	],

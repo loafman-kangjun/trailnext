@@ -5,7 +5,7 @@ project(TrailNext VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(FLUENTUI_BUILD_EXAMPLES OFF)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Quick LinguistTools)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
@@ -40,5 +40,7 @@ install(TARGETS appTrailNext
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
+qt_add_translations(appTrailNext TS_FILES ./translate/TrailNext_zh_CN.ts)
 
 add_subdirectory(FluentUI)

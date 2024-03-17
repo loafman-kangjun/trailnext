@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/kangj/Documents/Program/TrailNext/cmake-build-release"
+			"value" : "c:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1499,7 +1499,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/FluentUI"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI"
 		},
 		{
 			"name" : "FluentUI_IS_TOP_LEVEL",
@@ -5783,7 +5783,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.qt/bin/qt_setup_tool_path.bat"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.qt/bin/qt_setup_tool_path.bat"
 		},
 		{
 			"name" : "Qt6CoreTools_DIR",
@@ -5844,6 +5844,18 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Gui"
+		},
+		{
+			"name" : "Qt6LinguistTools_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6LinguistTools."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools"
 		},
 		{
 			"name" : "Qt6Network_DIR",
@@ -5975,7 +5987,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug"
 		},
 		{
 			"name" : "TrailNext_IS_TOP_LEVEL",
@@ -6090,6 +6102,18 @@
 			"value" : "C:/Program Files (x86)/TrailNext"
 		},
 		{
+			"name" : "_Qt6_LINGUIST_TOOLS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools"
+		},
+		{
 			"name" : "__qt_qml_macros_module_base_dir",
 			"properties" : 
 			[
@@ -6111,7 +6135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/FluentUI/src"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src"
 		},
 		{
 			"name" : "fluentuiplugin_IS_TOP_LEVEL",
