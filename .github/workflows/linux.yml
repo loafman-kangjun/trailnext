@@ -24,10 +24,10 @@ jobs:
           cmake -S . -B build -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="./install"
           cmake --build build
           cmake --build build --target install
-          ls
-
       - uses: actions/checkout@v4
       - name: ubuntu-build
+        env:
+          glog_DIR: /home/runner/work/trailnext/trailnext/glog/install/
         id: build
         run: |
           rm -rf cmake-build-release
