@@ -26,12 +26,10 @@ jobs:
           cmake --build build --target install
       - uses: actions/checkout@v4
       - name: ubuntu-build
-        env:
-          glog_DIR: /home/runner/work/trailnext/trailnext/glog/install/
         id: build
         run: |
           rm -rf cmake-build-release
-          cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release"
+          cmake -DCMAKE_BUILD_TYPE=Release -B "./cmake-build-release" -Dglog_DIR=/home/runner/work/trailnext/trailnext/glog/install/
           cmake --build "./cmake-build-release" --config Release --target appTrailNext -j 6
       - name: upload
         uses: actions/upload-artifact@v4
