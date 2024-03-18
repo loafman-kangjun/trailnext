@@ -18,6 +18,14 @@ jobs:
           host: 'windows'
           target: 'desktop'
           arch: 'win64_msvc2019_64'
+      - name: Install Glog
+        shell: cmd
+        run: |
+          git clone https://github.com/google/glog.git
+          cd glog
+          cmake -S . -B build -G "Unix Makefiles"
+          cmake --build build
+          cmake --build build --target install
       - uses: actions/checkout@v4
       - name: msvc-build
         id: build
