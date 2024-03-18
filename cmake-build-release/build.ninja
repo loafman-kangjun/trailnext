@@ -449,7 +449,7 @@ build .qt_plugins\Qt6_QmlPlugins_Imports_appTrailNext.cmake | ${cmake_ninja_work
 #############################################
 # Phony custom command for CMakeFiles\appTrailNext_autogen_timestamp_deps
 
-build CMakeFiles\appTrailNext_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\appTrailNext_autogen_timestamp_deps: phony .rcc\qmlcache\appTrailNext_qmlcache_loader.cpp C$:\Program$ Files$ (x86)\glog\lib\libglog.dll.a C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Qml.lib C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Quick.lib
+build CMakeFiles\appTrailNext_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\appTrailNext_autogen_timestamp_deps: phony .rcc\qmlcache\appTrailNext_qmlcache_loader.cpp C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe C$:\Program$ Files$ (x86)\glog\lib\libglog.dll.a C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Qml.lib C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Quick.lib
 
 
 #############################################
