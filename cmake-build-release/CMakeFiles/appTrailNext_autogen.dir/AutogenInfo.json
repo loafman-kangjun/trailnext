@@ -26,6 +26,19 @@
 		"C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/CMakeFiles/3.27.8/CMakeRCCompiler.cmake",
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files (x86)/glog/lib/cmake/glog/glog-config-version.cmake",
+		"C:/Program Files (x86)/glog/lib/cmake/glog/glog-config.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files (x86)/glog/lib/cmake/glog/glog-modules.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"C:/Program Files (x86)/glog/lib/cmake/glog/glog-targets.cmake",
+		"C:/Program Files (x86)/glog/lib/cmake/glog/glog-targets-noconfig.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -40,7 +53,6 @@
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake",
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
 		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
@@ -1084,6 +1096,8 @@
 	"MOC_COMPILATION_FILE" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/appTrailNext_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
+		"GLOG_NO_ABBREVIATED_SEVERITIES",
+		"GLOG_USE_GLOG_EXPORT",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
@@ -1124,7 +1138,8 @@
 		"C:/Qt/6.6.2/msvc2019_64/include/QtGui",
 		"C:/VulkanSDK/1.3.275.0/Include",
 		"C:/Qt/6.6.2/msvc2019_64/include/QtQmlModels",
-		"C:/Qt/6.6.2/msvc2019_64/include/QtOpenGL"
+		"C:/Qt/6.6.2/msvc2019_64/include/QtOpenGL",
+		"C:/Program Files (x86)/glog/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
