@@ -16,7 +16,7 @@ jobs:
         with:
           version: '6.6.2'
       - name: Install library
-        run: sudo apt-get install -y libglew-dev libglfw3-dev libunwind
+        run: sudo apt-get install -y libglew-dev libglfw3-dev
       - name: Install Glog
         run: |
           git clone https://github.com/google/glog.git
