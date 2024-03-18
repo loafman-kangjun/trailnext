@@ -5,6 +5,7 @@ project(TrailNext VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(FLUENTUI_BUILD_EXAMPLES OFF)
 
+find_package (glog 0.7.0 REQUIRED)
 find_package(Qt6 6.5 REQUIRED COMPONENTS Quick LinguistTools)
 
 qt_standard_project_setup(REQUIRES 6.5)
@@ -19,9 +20,6 @@ qt_add_qml_module(appTrailNext
     QML_FILES Main.qml
 )
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
 set_target_properties(appTrailNext PROPERTIES
 #    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appTrailNext
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
@@ -31,7 +29,7 @@ set_target_properties(appTrailNext PROPERTIES
 )
 
 target_link_libraries(appTrailNext
-    PRIVATE Qt6::Quick
+    PRIVATE Qt6::Quick glog::glog
 )
 
 include(GNUInstallDirs)

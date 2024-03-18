@@ -262,6 +262,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Build FluentUI demo applications.
+FLUENTUI_BUILD_EXAMPLES:BOOL=OFF
+
 //Build static library.
 FLUENTUI_BUILD_STATIC_LIB:BOOL=OFF
 
@@ -373,6 +376,9 @@ fluentuiplugin_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 fluentuiplugin_SOURCE_DIR:STATIC=C:/Users/kangj/Documents/Program/TrailNext/FluentUI/src
+
+//The directory containing a CMake configuration file for glog.
+glog_DIR:PATH=C:/Program Files (x86)/glog/lib/cmake/glog
 
 
 ########################
