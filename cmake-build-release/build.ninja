@@ -449,7 +449,7 @@ build .qt_plugins\Qt6_QmlPlugins_Imports_appTrailNext.cmake | ${cmake_ninja_work
 #############################################
 # Phony custom command for CMakeFiles\appTrailNext_autogen_timestamp_deps
 
-build CMakeFiles\appTrailNext_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\appTrailNext_autogen_timestamp_deps: phony .rcc\qmlcache\appTrailNext_qmlcache_loader.cpp C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe C$:\Program$ Files$ (x86)\glog\lib\libglog.dll.a C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Qml.lib C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Quick.lib
+build CMakeFiles\appTrailNext_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\appTrailNext_autogen_timestamp_deps: phony .rcc\qmlcache\appTrailNext_qmlcache_loader.cpp C$:\Program$ Files$ (x86)\glog\lib\libglog.dll.a C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Qml.lib C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Quick.lib
 
 
 #############################################
@@ -3532,7 +3532,7 @@ build C$:\Qt\6.6.2\msvc2019_64\qml\FluentUI\i18n\fluentuiplugin_zh_CN.qm: CUSTOM
 #############################################
 # Phony custom command for FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps
 
-build FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps | ${cmake_ninja_workdir}FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps: phony FluentUI\src\.rcc\qmlcache\fluentuiplugin_qmlcache_loader.cpp C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Core.lib C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe
+build FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps | ${cmake_ninja_workdir}FluentUI\src\CMakeFiles\fluentuiplugin_autogen_timestamp_deps: phony FluentUI\src\.rcc\qmlcache\fluentuiplugin_qmlcache_loader.cpp C$:\Qt\6.6.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.6.2\msvc2019_64\lib\Qt6Core.lib
 
 
 #############################################

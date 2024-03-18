@@ -5,6 +5,8 @@ project(TrailNext VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(FLUENTUI_BUILD_EXAMPLES OFF)
 
+set(glog_DIR ./lib/glog)
+
 find_package (glog REQUIRED)
 find_package(Qt6 6.5 REQUIRED COMPONENTS Quick LinguistTools)
 
