@@ -22,6 +22,7 @@ jobs:
         shell: cmd
         run: |
           git clone https://github.com/google/glog.git
+          rmdir /s/q ./lib/glog
           cd glog
           cmake -S . -B build -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="../lib/glog"
           cmake --build build
