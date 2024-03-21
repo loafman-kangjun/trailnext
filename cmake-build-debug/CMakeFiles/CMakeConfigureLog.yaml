@@ -63,21 +63,25 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lg7610"
-      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lg7610"
+      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9drwts"
+      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9drwts"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Tools/vcpkg"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lg7610'
+        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9drwts'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_2205c
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_2205c.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_2205c.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2205c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2205c.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_2205c.exe /implib:cmTC_2205c.lib /pdb:cmTC_2205c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_eae6c
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_eae6c.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_eae6c.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eae6c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eae6c.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_eae6c.exe /implib:cmTC_eae6c.lib /pdb:cmTC_eae6c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-9drwts && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9drwts/cmTC_eae6c.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -87,32 +91,36 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
+      - "C:/Program Files (x86)/glog/lib/cmake/glog/glog-config.cmake:24 (find_dependency)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "CMakeLists.txt:8 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s92cuz"
-      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s92cuz"
+      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pb2ez9"
+      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pb2ez9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/glog/lib/cmake/glog/../../../share/glog/cmake"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Tools/vcpkg"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s92cuz'
+        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pb2ez9'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_6431d
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6431d.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_6431d.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-s92cuz\\src.cxx
-        FAILED: CMakeFiles/cmTC_6431d.dir/src.cxx.obj 
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6431d.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_6431d.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-s92cuz\\src.cxx
-        C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-s92cuz\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_cef69
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_cef69.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_cef69.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pb2ez9\\src.cxx
+        FAILED: CMakeFiles/cmTC_cef69.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_cef69.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_cef69.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pb2ez9\\src.cxx
+        C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pb2ez9\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -122,33 +130,37 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
+      - "C:/Program Files (x86)/glog/lib/cmake/glog/glog-config.cmake:24 (find_dependency)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "CMakeLists.txt:8 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kmanau"
-      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kmanau"
+      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xgdegs"
+      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xgdegs"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/glog/lib/cmake/glog/../../../share/glog/cmake"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Tools/vcpkg"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kmanau'
+        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xgdegs'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_635d8
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_635d8.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_635d8.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-kmanau\\CheckFunctionExists.cxx
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_635d8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_635d8.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_635d8.exe /implib:cmTC_635d8.lib /pdb:cmTC_635d8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_635d8.exe 
-        cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_635d8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_635d8.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_635d8.exe /implib:cmTC_635d8.lib /pdb:cmTC_635d8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_635d8.dir\\CheckFunctionExists.cxx.obj /out:cmTC_635d8.exe /implib:cmTC_635d8.lib /pdb:cmTC_635d8.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_635d8.dir/intermediate.manifest CMakeFiles\\cmTC_635d8.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_144b0
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_144b0.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_144b0.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-xgdegs\\CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_144b0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_144b0.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_144b0.exe /implib:cmTC_144b0.lib /pdb:cmTC_144b0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-xgdegs && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xgdegs/cmTC_144b0.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_144b0.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_144b0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_144b0.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_144b0.exe /implib:cmTC_144b0.lib /pdb:cmTC_144b0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-xgdegs && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xgdegs/cmTC_144b0.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_144b0.dir\\CheckFunctionExists.cxx.obj /out:cmTC_144b0.exe /implib:cmTC_144b0.lib /pdb:cmTC_144b0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_144b0.dir/intermediate.manifest CMakeFiles\\cmTC_144b0.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
         ninja: build stopped: subcommand failed.
         
@@ -159,33 +171,37 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
+      - "C:/Program Files (x86)/glog/lib/cmake/glog/glog-config.cmake:24 (find_dependency)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "CMakeLists.txt:8 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o9ra83"
-      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o9ra83"
+      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hoy02n"
+      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hoy02n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/glog/lib/cmake/glog/../../../share/glog/cmake"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Tools/vcpkg"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o9ra83'
+        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hoy02n'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_59e30
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_59e30.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_59e30.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-o9ra83\\CheckFunctionExists.cxx
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_59e30.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_59e30.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_59e30.exe /implib:cmTC_59e30.lib /pdb:cmTC_59e30.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_59e30.exe 
-        cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_59e30.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_59e30.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_59e30.exe /implib:cmTC_59e30.lib /pdb:cmTC_59e30.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_59e30.dir\\CheckFunctionExists.cxx.obj /out:cmTC_59e30.exe /implib:cmTC_59e30.lib /pdb:cmTC_59e30.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_59e30.dir/intermediate.manifest CMakeFiles\\cmTC_59e30.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_e62d3
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e62d3.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_e62d3.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-hoy02n\\CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e62d3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e62d3.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e62d3.exe /implib:cmTC_e62d3.lib /pdb:cmTC_e62d3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-hoy02n && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hoy02n/cmTC_e62d3.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_e62d3.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e62d3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e62d3.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e62d3.exe /implib:cmTC_e62d3.lib /pdb:cmTC_e62d3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-hoy02n && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hoy02n/cmTC_e62d3.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e62d3.dir\\CheckFunctionExists.cxx.obj /out:cmTC_e62d3.exe /implib:cmTC_e62d3.lib /pdb:cmTC_e62d3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e62d3.dir/intermediate.manifest CMakeFiles\\cmTC_e62d3.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
         ninja: build stopped: subcommand failed.
         
@@ -196,35 +212,43 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
       - "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yylt7h"
-      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yylt7h"
+      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ellfi3"
+      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ellfi3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/glog/lib/cmake/glog/../../../share/glog/cmake;C:/Tools/vcpkg/installed/x64-windows/share/grpc/modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Tools/vcpkg"
     buildResult:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yylt7h'
+        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ellfi3'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_3a3cc
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_3a3cc.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_3a3cc.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-yylt7h\\src.cxx
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3a3cc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3a3cc.dir\\src.cxx.obj  /out:cmTC_3a3cc.exe /implib:cmTC_3a3cc.lib /pdb:cmTC_3a3cc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_c41ac
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c41ac.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_c41ac.dir\\ /FS -c C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ellfi3\\src.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c41ac.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c41ac.dir\\src.cxx.obj  /out:cmTC_c41ac.exe /implib:cmTC_c41ac.lib /pdb:cmTC_c41ac.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ellfi3 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ellfi3/cmTC_c41ac.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -233,7 +257,7 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "FluentUI/CMakeLists.txt:3 (project)"
+      - "FluentUI/CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
@@ -266,7 +290,7 @@ events:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "FluentUI/CMakeLists.txt:3 (project)"
+      - "FluentUI/CMakeLists.txt:2 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
@@ -278,26 +302,30 @@ events:
     backtrace:
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "C:/Program Files/JetBrains/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "FluentUI/CMakeLists.txt:3 (project)"
+      - "FluentUI/CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-novly5"
-      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-novly5"
+      source: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gg7cf6"
+      binary: "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gg7cf6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/glog/lib/cmake/glog/../../../share/glog/cmake;C:/Tools/vcpkg/installed/x64-windows/share/grpc/modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Tools/vcpkg"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-novly5'
+        Change Dir: 'C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gg7cf6'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_ca3e8
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ca3e8.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_ca3e8.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ca3e8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ca3e8.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_ca3e8.exe /implib:cmTC_ca3e8.lib /pdb:cmTC_ca3e8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_d4848
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d4848.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_d4848.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.3.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d4848.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d4848.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_d4848.exe /implib:cmTC_d4848.lib /pdb:cmTC_d4848.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\kangj\\Documents\\Program\\TrailNext\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-gg7cf6 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gg7cf6/cmTC_d4848.exe -installedDir C:/Tools/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
 ...

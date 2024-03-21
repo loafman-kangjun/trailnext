@@ -1,11 +1,18 @@
 appTrailNext_autogen/timestamp: \
+	C:/Program\ Files\ (x86)/glog/lib/cmake/glog/glog-config-version.cmake \
+	C:/Program\ Files\ (x86)/glog/lib/cmake/glog/glog-config.cmake \
+	C:/Program\ Files\ (x86)/glog/lib/cmake/glog/glog-modules.cmake \
+	C:/Program\ Files\ (x86)/glog/lib/cmake/glog/glog-targets-noconfig.cmake \
+	C:/Program\ Files\ (x86)/glog/lib/cmake/glog/glog-targets.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseArguments.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
@@ -16,10 +23,12 @@ appTrailNext_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindOpenSSL.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindVulkan.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindZLIB.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
@@ -29,6 +38,7 @@ appTrailNext_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake \
@@ -191,6 +201,16 @@ appTrailNext_autogen/timestamp: \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-debug.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake \
+	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
@@ -804,6 +824,42 @@ appTrailNext_autogen/timestamp: \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/absl/abslConfigVersion.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/absl/abslTargets-debug.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/absl/abslTargets-release.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/absl/abslTargets.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-config-version.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-config.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-targets-debug.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-targets-release.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-targets.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCConfig.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCConfigVersion.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCTargets-debug.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCTargets-release.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCTargets.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/modules/Findc-ares.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/grpc/modules/Findre2.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/openssl/vcpkg-cmake-wrapper.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-config-version.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-module.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-options.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-debug.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-release.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/re2/re2Config.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/re2/re2ConfigVersion.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/re2/re2Targets-debug.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/re2/re2Targets-release.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/re2/re2Targets.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/upb/upb-config-debug.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/upb/upb-config-release.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/upb/upb-config.cmake \
+	C:/Tools/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake \
+	C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake \
 	C:/Users/kangj/Documents/Program/TrailNext/CMakeLists.txt \
 	C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.rcc/qmlcache/appTrailNext_qmlcache_loader.cpp \
 	C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \

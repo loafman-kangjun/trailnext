@@ -3,11 +3,9 @@ cmake_minimum_required(VERSION 3.16)
 project(TrailNext VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(FLUENTUI_BUILD_EXAMPLES OFF)
 
-set(glog_DIR ./lib/glog)
-
-find_package (glog REQUIRED)
+find_package(glog REQUIRED)
+find_package(gRPC CONFIG REQUIRED)
 find_package(Qt6 6.5 REQUIRED COMPONENTS Quick LinguistTools)
 
 qt_standard_project_setup(REQUIRES 6.5)
@@ -23,7 +21,6 @@ qt_add_qml_module(appTrailNext
 )
 
 set_target_properties(appTrailNext PROPERTIES
-#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appTrailNext
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
