@@ -38,3 +38,8 @@ C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeF
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeFiles/install/local.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeFiles/fluentuiplugin_autogen_timestamp_deps.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeFiles/fluentuiplugin_autogen.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/edit_cache.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/rebuild_cache.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/list_install_components.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/install.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/install/local.dir

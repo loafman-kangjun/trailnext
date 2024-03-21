@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						3
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-9dabe19f863a7c47b48b.json",
@@ -77,6 +78,17 @@
 						21,
 						22
 					]
+				},
+				{
+					"build" : "proto",
+					"jsonFile" : "directory-proto-Debug-e6dc725ea4985cd6dd68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Proto"
 				}
 			],
 			"name" : "Debug",
@@ -89,7 +101,8 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						3
 					],
 					"name" : "TrailNext",
 					"targetIndexes" : 
@@ -178,14 +191,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appTrailNext::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appTrailNext-Debug-564fa1df6bedcacd8e64.json",
+					"jsonFile" : "target-appTrailNext-Debug-512ec1d7c06ed7e14fa6.json",
 					"name" : "appTrailNext",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appTrailNext_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appTrailNext_autogen-Debug-951a87af4df5bc40f64d.json",
+					"jsonFile" : "target-appTrailNext_autogen-Debug-6162bf8caf8c739f44e9.json",
 					"name" : "appTrailNext_autogen",
 					"projectIndex" : 0
 				},

@@ -32,12 +32,12 @@
 			"qt6_add_lrelease",
 			"qt6_add_translations",
 			"qt_add_translations",
-			"qt6_target_qml_sources",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
+			"qt6_target_qml_sources",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -532,7 +532,48 @@
 				"parent" : 80
 			},
 			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 23,
+				"file" : 27,
+				"line" : 1,
+				"parent" : 82
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 769,
+				"parent" : 83
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 84
+			},
+			{
+				"command" : 20,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 85
+			},
+			{
 				"command" : 19,
+				"file" : 6,
+				"line" : 3122,
+				"parent" : 86
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 2974,
+				"parent" : 87
+			},
+			{
+				"command" : 24,
 				"file" : 6,
 				"line" : 633,
 				"parent" : 18
@@ -541,47 +582,6 @@
 				"command" : 15,
 				"file" : 6,
 				"line" : 2441,
-				"parent" : 82
-			},
-			{
-				"file" : 2,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 24,
-				"file" : 27,
-				"line" : 1,
-				"parent" : 84
-			},
-			{
-				"command" : 23,
-				"file" : 1,
-				"line" : 769,
-				"parent" : 85
-			},
-			{
-				"command" : 22,
-				"file" : 1,
-				"line" : 675,
-				"parent" : 86
-			},
-			{
-				"command" : 21,
-				"file" : 1,
-				"line" : 675,
-				"parent" : 87
-			},
-			{
-				"command" : 20,
-				"file" : 6,
-				"line" : 3122,
-				"parent" : 88
-			},
-			{
-				"command" : 15,
-				"file" : 6,
-				"line" : 2974,
 				"parent" : 89
 			},
 			{
@@ -654,13 +654,13 @@
 				"command" : 27,
 				"file" : 6,
 				"line" : 2224,
-				"parent" : 82
+				"parent" : 89
 			},
 			{
 				"command" : 33,
 				"file" : 6,
 				"line" : 2328,
-				"parent" : 82
+				"parent" : 89
 			},
 			{
 				"command" : 27,
@@ -672,13 +672,13 @@
 				"command" : 27,
 				"file" : 6,
 				"line" : 2377,
-				"parent" : 82
+				"parent" : 89
 			},
 			{
 				"command" : 32,
 				"file" : 6,
 				"line" : 2460,
-				"parent" : 82
+				"parent" : 89
 			},
 			{
 				"command" : 31,
@@ -726,7 +726,7 @@
 				"command" : 34,
 				"file" : 1,
 				"line" : 764,
-				"parent" : 85
+				"parent" : 83
 			},
 			{
 				"command" : 27,
@@ -1140,12 +1140,12 @@
 			"id" : "appTrailNext_lrelease::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 83,
-			"id" : "appTrailNext_tooling::@6890427a1f51a3e7e1df"
+			"backtrace" : 88,
+			"id" : "appTrailNext_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 90,
-			"id" : "appTrailNext_qmlimportscan::@6890427a1f51a3e7e1df"
+			"id" : "appTrailNext_tooling::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "appTrailNext_autogen_timestamp_deps::@6890427a1f51a3e7e1df"

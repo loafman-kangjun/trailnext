@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug"
+			"value" : "c:/Users/kangj/Documents/Program/TrailNext/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1623,7 +1623,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/FluentUI"
 		},
 		{
 			"name" : "FluentUI_IS_TOP_LEVEL",
@@ -1758,6 +1758,22 @@
 			"value" : "C:/Tools/vcpkg/installed/x64-windows/share/protobuf"
 		},
 		{
+			"name" : "Protobuf_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Tools/vcpkg/installed/x64-windows/include"
+		},
+		{
 			"name" : "Protobuf_LIBRARY_DEBUG",
 			"properties" : 
 			[
@@ -1826,6 +1842,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a program."
 				}
@@ -1864,6 +1884,18 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : ""
+		},
+		{
+			"name" : "Protobuf_SRC_ROOT_FOLDER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "Protobuf_SRC_ROOT_FOLDER-NOTFOUND"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -6111,7 +6143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/.qt/bin/qt_setup_tool_path.bat"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/.qt/bin/qt_setup_tool_path.bat"
 		},
 		{
 			"name" : "Qt6CoreTools_DIR",
@@ -6371,7 +6403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/proto"
 		},
 		{
 			"name" : "TrailNext_IS_TOP_LEVEL",
@@ -6383,7 +6415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "TrailNext_SOURCE_DIR",
@@ -6395,7 +6427,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/Proto"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
@@ -6823,7 +6855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src"
+			"value" : "C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/FluentUI/src"
 		},
 		{
 			"name" : "fluentuiplugin_IS_TOP_LEVEL",

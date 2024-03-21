@@ -298,8 +298,14 @@ OPENSSL_INCLUDE_DIR:PATH=C:/Tools/vcpkg/installed/x64-windows/include
 //The directory containing a CMake configuration file for Protobuf.
 Protobuf_DIR:PATH=C:/Tools/vcpkg/installed/x64-windows/share/protobuf
 
+//Path to a file.
+Protobuf_INCLUDE_DIR:PATH=C:/Tools/vcpkg/installed/x64-windows/include
+
 //Path to a program.
 Protobuf_PROTOC_EXECUTABLE:FILEPATH=C:/Tools/vcpkg/installed/x64-windows/tools/protobuf/protoc.exe
+
+//Path to a file.
+Protobuf_SRC_ROOT_FOLDER:PATH=Protobuf_SRC_ROOT_FOLDER-NOTFOUND
 
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
@@ -372,13 +378,13 @@ SSL_EAY_DEBUG:FILEPATH=C:/Tools/vcpkg/installed/x64-windows/debug/lib/libssl.lib
 SSL_EAY_RELEASE:FILEPATH=C:/Tools/vcpkg/installed/x64-windows/lib/libssl.lib
 
 //Value Computed by CMake
-TrailNext_BINARY_DIR:STATIC=C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release
+TrailNext_BINARY_DIR:STATIC=C:/Users/kangj/Documents/Program/TrailNext/cmake-build-release/proto
 
 //Value Computed by CMake
-TrailNext_IS_TOP_LEVEL:STATIC=ON
+TrailNext_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-TrailNext_SOURCE_DIR:STATIC=C:/Users/kangj/Documents/Program/TrailNext
+TrailNext_SOURCE_DIR:STATIC=C:/Users/kangj/Documents/Program/TrailNext/Proto
 
 //Automatically copy dependencies into the output directory for
 // executables.
@@ -620,7 +626,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -694,6 +700,10 @@ FIND_PACKAGE_MESSAGE_DETAILS_c-ares:INTERNAL=[C:/Tools/vcpkg/installed/x64-windo
 HAVE_STDATOMIC:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_INCLUDE_DIR
+Protobuf_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_EXECUTABLE
+Protobuf_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
 //Qt feature: accessibility (from target Qt6::Gui)
 QT_FEATURE_accessibility:INTERNAL=ON
 //Qt feature: accessibility_atspi_bridge (from target Qt6::Gui)

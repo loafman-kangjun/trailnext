@@ -67,19 +67,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/appTrailNext_autogen",
+			"path" : "cmake-build-release/CMakeFiles/appTrailNext_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/appTrailNext_autogen.rule",
+			"path" : "cmake-build-release/CMakeFiles/appTrailNext_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/appTrailNext_autogen/timestamp.rule",
+			"path" : "cmake-build-release/appTrailNext_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
