@@ -1,6 +1,7 @@
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_qmltyperegistration.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/all_qmltyperegistrations.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_other_files.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_qmllint.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_qmllint_json.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_qmllint_module.dir
@@ -12,7 +13,6 @@ C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrail
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/update_translations.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_lrelease.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/release_translations.dir
-C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/appTrailNext_qmlimportscan.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/CMakeFiles/list_install_components.dir
@@ -38,8 +38,11 @@ C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeF
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeFiles/install/local.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeFiles/fluentuiplugin_autogen_timestamp_deps.dir
 C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/FluentUI/src/CMakeFiles/fluentuiplugin_autogen.dir
-C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/edit_cache.dir
-C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/rebuild_cache.dir
-C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/list_install_components.dir
-C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/install.dir
-C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/CMakeFiles/install/local.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/Util.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/edit_cache.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/rebuild_cache.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/list_install_components.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/install.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/install/local.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/Util_autogen_timestamp_deps.dir
+C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/CMakeFiles/Util_autogen.dir

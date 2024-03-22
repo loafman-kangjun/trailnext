@@ -43,7 +43,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/proto/cmake_install.cmake")
+  include("C:/Users/kangj/Documents/Program/TrailNext/cmake-build-debug/util/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

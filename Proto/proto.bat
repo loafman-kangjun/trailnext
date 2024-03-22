@@ -1,0 +1,1 @@
+protoc -IPATH ./proto --cpp_out=./out

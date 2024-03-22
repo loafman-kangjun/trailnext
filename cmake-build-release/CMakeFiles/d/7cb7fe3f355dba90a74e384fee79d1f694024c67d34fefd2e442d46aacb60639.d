@@ -835,6 +835,11 @@ appTrailNext_autogen/timestamp: \
   C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-targets-debug.cmake \
   C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-targets-release.cmake \
   C:/Tools/vcpkg/installed/x64-windows/share/c-ares/c-ares-targets.cmake \
+  C:/Tools/vcpkg/installed/x64-windows/share/cmark/cmark-config-version.cmake \
+  C:/Tools/vcpkg/installed/x64-windows/share/cmark/cmark-config.cmake \
+  C:/Tools/vcpkg/installed/x64-windows/share/cmark/cmark-targets-debug.cmake \
+  C:/Tools/vcpkg/installed/x64-windows/share/cmark/cmark-targets-release.cmake \
+  C:/Tools/vcpkg/installed/x64-windows/share/cmark/cmark-targets.cmake \
   C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCConfig.cmake \
   C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCConfigVersion.cmake \
   C:/Tools/vcpkg/installed/x64-windows/share/grpc/gRPCTargets-debug.cmake \
