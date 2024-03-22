@@ -1,5 +1,5 @@
 {
-  "name": "TrailNext",
+  "name": "trailnext",
   "version-semver": "0.1.0",
   "dependencies": [
     "fmt",
