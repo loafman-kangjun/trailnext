@@ -9,5 +9,8 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Release")
   "FluentUI\\src\\CMakeFiles\\fluentuiplugin_autogen.dir\\ParseCache.txt"
   "FluentUI\\src\\fluentuiplugin_autogen"
   "appTrailNext_autogen"
+  "util\\CMakeFiles\\Util_autogen.dir\\AutogenUsed.txt"
+  "util\\CMakeFiles\\Util_autogen.dir\\ParseCache.txt"
+  "util\\Util_autogen"
   )
 endif()

@@ -18,15 +18,10 @@ jobs:
           host: 'windows'
           target: 'desktop'
           arch: 'win64_msvc2019_64'
-      - name: Install Glog
-        shell: cmd
-        run: |
-          git clone https://github.com/google/glog.git
-          rmdir /s/q ./lib/glog
-          cd glog
-          cmake -S . -B build -G "Unix Makefiles"
-          cmake --build build
-          cmake --build build --target install
+      - name: Install Vcpkg
+        uses: lukka/run-vcpkg@v11
+        with:
+          vcpkgDirectory: '${{ github.workspace }}/vcpkg'
       - uses: actions/checkout@v4
       - name: msvc-build
         id: build
