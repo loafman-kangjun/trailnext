@@ -1,6 +1,13 @@
 use tauri_plugin_http::reqwest;
 
-pub async fn get() {
-    let resp = reqwest::get("https://httpbin.org/ip").await.expect("REASON").text().await;
-    println!("{resp:#?}");
+pub fn text() {
+    let body = reqwest::blocking::get("https://www.rust-lang.org")?
+        .text()?;
+    println!("body = {:?}", body);
+}
+
+pub fn download() {
+    let body = reqwest::blocking::get("https://www.rust-lang.org")?
+        .text()?;
+    println!("body = {:?}", body);
 }
