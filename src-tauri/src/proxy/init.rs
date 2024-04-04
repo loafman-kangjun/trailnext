@@ -1,8 +1,16 @@
+// use reqwest::Client;
 
-pub fn init_clash() {
-    let client = reqwest::Client::new();
-    let body = client.get("http://httpbin.org/get")
-        .text();
-    println!("{}", body)
-
-}
+// #[tokio::main]
+// pub async fn init_clash() -> Result<(), reqwest::Error> {
+//     let client = Client::new();
+//     let res = client
+//         .post("http://httpbin.org/post")
+//         .body("the exact body that is sent")
+//         .send()
+//         .await?
+//         .text()
+//         .await?;
+//
+//     println!("body: {:?}", res);
+//     Ok(())
+// }
