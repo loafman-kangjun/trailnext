@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
+    "check": "vue-tsc --noEmit",
     "preview": "vite preview",
     "tauri": "tauri"
   },
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "2.0.0-beta.12",
+    "@types/node": "^20.12.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.4.3",
     "unplugin-auto-import": "^0.17.5",
